@@ -22,6 +22,11 @@ body {
     background-color: yellow;
 }
 
+.wrap {
+    height: 100vh;
+    display: flex;
+}
+
 .wrapper {
     margin: 0 auto;
     background-color: teal;
@@ -36,7 +41,7 @@ body {
 .quotes-container {
     width: 70%;
     height: auto;
-    background-color: lawngreen;
+    background-color: rgba(81, 73, 155, 0.3);
     margin: 0 auto;
     font-family: 'Lobster', cursive;
     padding: 4rem;
