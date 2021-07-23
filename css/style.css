@@ -19,7 +19,9 @@ body {
 }
 
 .main {
-    background-color: yellow;
+    background-image: url(../images/image.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 .wrap {
@@ -29,7 +31,7 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    background-color: teal;
+    background-color: rgba(247 230 230 / 94%);
     width: 50%;
     height: auto;
     display: flex;
@@ -60,16 +62,16 @@ h2 {
 }
 
 .button-quotes {
-    background-color: lightpink;
-    height: 5rem;
-    width: 8rem;
+    background-color: rgba(81, 73, 155, 0.3);
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    height: 6rem;
+    width: 12rem;
     margin-left: auto;
     margin-right: auto;
     margin: 4rem;
     border-radius: 2rem;
 }
-
-
 
 @media only screen and (max-width: 1200px) {
     h1 {
@@ -78,6 +80,14 @@ h2 {
 
     h2 {
         font-size: 1rem;
+    }
+
+    .button-quotes {
+        font-size: 1.5rem;
+        height: 4rem;
+        width: 8rem;
+        border-radius: 1rem;
+        font-weight: bold;
     }
 
     .wrapper {
@@ -97,7 +107,6 @@ h2 {
     h2 {
         font-size: 1rem;
     }
-
 
     .quotes-container {
         width: 100%;
