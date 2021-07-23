@@ -19,12 +19,14 @@ body {
 }
 
 .main {
-    background-color: yellow;
+    background-image: url(../images/image.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 .wrapper {
     margin: 0 auto;
-    background-color: teal;
+    background-image: url(../images/image.jpg);
     width: 50%;
     height: auto;
     display: flex;
@@ -36,7 +38,7 @@ body {
 .quotes-container {
     width: 70%;
     height: auto;
-    background-color: lawngreen;
+    background-image: url(../images/image.jpg);
     margin: 0 auto;
     font-family: 'Lobster', cursive;
     padding: 4rem;
@@ -64,21 +66,16 @@ h2 {
     border-radius: 2rem;
 }
 
-
-
 @media only screen and (max-width: 1200px) {
     h1 {
         font-size: 3rem;
     }
-
     h2 {
         font-size: 1rem;
     }
-
     .wrapper {
         width: 100%;
     }
-
     .quotes-container {
         width: 100%;
     }
@@ -88,12 +85,9 @@ h2 {
     h1 {
         font-size: 2rem;
     }
-
     h2 {
         font-size: 1rem;
     }
-
-
     .quotes-container {
         width: 100%;
         font-size: 2rem;
