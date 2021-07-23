@@ -14,20 +14,19 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 40rem;
     line-height: 1.7;
-    margin: 10rem;
+    margin: 2rem 5rem;
     background-color: rgb(56, 56, 47);
 }
 
 .main {
     background-color: yellow;
-    height: 75vh;
 }
 
 .wrapper {
     margin: 0 auto;
     background-color: teal;
     width: 50%;
-    height: inherit;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -36,7 +35,7 @@ body {
 
 .quotes-container {
     width: 70%;
-    height: 50%;
+    height: auto;
     background-color: lawngreen;
     margin: 0 auto;
     font-family: 'Lobster', cursive;
