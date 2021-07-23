@@ -28,6 +28,10 @@ body {
     background-color: teal;
     width: 50%;
     height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quotes-container {
@@ -51,5 +55,46 @@ h2 {
     background-color: lightpink;
     height: 5rem;
     width: 8rem;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 4rem;
+    border-radius: 2rem;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .quotes-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .quotes-container {
+        width: 100%;
+    }
 }
