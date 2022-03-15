@@ -1,4 +1,5 @@
 let quoteDisplay = document.querySelector(".quotes-container");
+
 let showQuoteButton = document.querySelector(".button-quotes");
 
 //function that displays randomised quotes from API
@@ -7,7 +8,6 @@ function quotesSelector() {
   fetch("https://api.quotable.io/random")
     .then((res) => res.json())
     .then((result) => {
-      console.log(result);
       quoteDisplay.innerHTML = result.content;
     });
 }
